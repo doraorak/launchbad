@@ -8,6 +8,6 @@ include $(THEOS)/makefiles/common.mk
 TWEAK_NAME = launchbad
 
 launchbad_FILES = Tweak.x
-launchbad_CFLAGS = -fobjc-arc
+launchbad_CFLAGS = -fobjc-arc -fno-modules
 
 include $(THEOS_MAKE_PATH)/tweak.mk
